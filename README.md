@@ -1,7 +1,7 @@
-# Archive of the "J operating system" by Terry
+# My archive of the "J operating system" by Terry Davis
 
 * ```jcd.iso``` was downloaded from http://web.archive.org/.
-' ```JCD.ISO/``` contains the contents of ```jcd.iso``` (– an Android RAR app was able to extract the files of the ISO image).
+' ```JCD.ISO/``` contains uncompressed the contents of ```jcd.iso```.
 
 ## Run JOS in qemu
 
@@ -11,11 +11,14 @@ Start qemu with ```qemu-system-i386 -cdrom jcd.iso -m 100```.
 
 * In the JOS boot loader screen, press ```s``` for seconday IDE controller, followed by ```0``` for IDE master.
 
-## TODO
+To boot qemu with a hard drive, run it with the following options
 
-* I don't know howto decode the files in ```JCD.ISO/```. I have tried the ```TOSZ.CPP``` unzip utility that comes with TempleOS without much success. - If you have an idea howto uncompress these files, please let me know.
+```
+-drive file=JHD.raw,index=0,format=raw,media=disk -boot d
+```
 
-## Contact
+after creating a ```JHD.raw``` HDD image with
 
-* https://github.com/koppi
-
+```
+qemu-img create JHD.raw 500M
+```
