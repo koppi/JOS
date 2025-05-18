@@ -1,9 +1,9 @@
-My archive of the "J operating system" by Terry Davis
+Archive of the J Operating System (JOS) by [Terry Andrew Davis](https://en.wikipedia.org/wiki/Terry_A._Davis)
 
 * ```jcd.iso``` was downloaded from https://web.archive.org .
 * ```JCD.ISO/``` contains uncompressed the contents of ```jcd.iso```.
 
-## Run JOS in qemu
+### Run JOS in qemu
 
 To run ```jcd.iso``` in qemu, install ```qemu-system-i386```. Start qemu with ```qemu-system-i386 -cdrom jcd.iso -m 100```. In the JOS boot loader screen, press ```s``` for seconday IDE controller, followed by ```0``` for IDE master.
 
