@@ -2,7 +2,7 @@ Archive of the J Operating System by [Terry A. Davis](https://en.wikipedia.org/w
 * ```jcd.iso``` was downloaded from https://web.archive.org ,
 * ```JCD.ISO/``` contains uncompressed the contents of ```jcd.iso```.
 
-### Run JOS in qemu
+### Run JOS in QEMU
 
 To run ```jcd.iso``` in QEMU, install ```qemu-system-i386```.
 
