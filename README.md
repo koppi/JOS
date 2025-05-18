@@ -1,4 +1,4 @@
-Archive of the J Operating System (JOS) by [Terry Andrew Davis](https://en.wikipedia.org/wiki/Terry_A._Davis)
+The J Operating System by [Terry A. Davis](https://en.wikipedia.org/wiki/Terry_A._Davis).
 
 * ```jcd.iso``` was downloaded from https://web.archive.org .
 * ```JCD.ISO/``` contains uncompressed the contents of ```jcd.iso```.
