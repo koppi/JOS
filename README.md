@@ -13,7 +13,7 @@ To boot qemu with a hard drive, run it with the following options:
 ```
 -drive file=JHD.raw,index=0,format=raw,media=disk -boot d
 ```
-after creating a ```JHD.raw``` HDD image with
+after creating a ```JHD.raw``` HDD image with:
 ```
 qemu-img create JHD.raw 500M
 ```
